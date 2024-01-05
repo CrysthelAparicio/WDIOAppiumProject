@@ -57,9 +57,15 @@ Then(/^a popup will appear to enter the task name$/, async () => {
  Then(/^taps on the blue circle button$/, async () => {
      await TaskPage.clickButtonSend();
  });
+ Then(/^user go back after indications$/, async () => {
+    await TaskPage.goBackIndications();
+ });
+
+Then(/^user go back after task created$/, async () => {
+    await TaskPage.goBackAfterButtonCreate();
+ });
  Then(/^the task will be entered into the dashboard$/, async () => {
-     await TaskPage.displayedIntoDashboard();
-     await TaskPage.goBackAfterButtonCreate();
+    await TaskPage.displayedIntoDashboard();
  });
  //------------------AC-11-------------------------------//
  Then(/^he is in the main menu of the app$/, async () => {
