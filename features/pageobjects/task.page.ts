@@ -20,6 +20,10 @@ class TaskPage {
     public get btnTask () {
         return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/tasks_img');
     }
+    public get btnTask2 () {
+        return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/tasks_text');
+    }
+    
 
     public get btnMenu () {
         return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/ic_menu');
@@ -155,7 +159,8 @@ class TaskPage {
     }
 
     public async home () {
-         await expect(this.textAll).toHaveTextContaining('All');
+        await browser.reloadSession();
+         await expect(this.btnTask2).toHaveTextContaining('Tasks');
          await this.wait(2000);
  
      }
@@ -163,6 +168,7 @@ class TaskPage {
     public async TabTask () {
         await this.btnTask.click();
         await this.wait(2000);
+        
 
     }
     public async AssertionMessageDisplayed () {
@@ -200,6 +206,17 @@ class TaskPage {
         await this.inputNewTask.setValue(this.valueItem);
         await this.wait(5000);
       
+      
+    }
+
+    public async enterNewName2 () {
+        const random = Math.floor((Math.random() * 1000));
+        this.valueItem='My Task - ' + random;
+        await this.inputNewTask.setValue(this.valueItem);
+        await this.wait(5000);
+    
+
+      
     }
     public async clickButtonSend () {
         await this.btnTaskCreate.click();
@@ -207,6 +224,16 @@ class TaskPage {
 
     }
     public async displayedIntoDashboard () {
+        await driver.touchAction({
+            action: 'tap', x: 1238, y: 1451
+        });
+        await driver.touchAction({
+            action: 'tap', x: 1234, y: 1451
+        });
+        await driver.touchAction({
+            action: 'tap', x: 1256, y: 1455
+        });
+        
         await expect(this.taskItem).toBeDisplayed();
         await expect(this.taskItem).toHaveTextContaining(this.valueItem);
         await this.wait(2000);

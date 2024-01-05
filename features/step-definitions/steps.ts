@@ -31,7 +31,7 @@ Then(/^the user taps on the space to add the task name$/, async () => {
     await TaskPage.tapsOnTaskName();
 });
 Then(/^the mobile keyboard will be activated to enter a name$/, async () => {
-    await TaskPage.enterNewName();
+    await TaskPage.enterNewName2();
 });
 
 
