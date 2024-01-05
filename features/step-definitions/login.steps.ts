@@ -100,7 +100,6 @@ Then(/^user go back after task created$/, async () => {
  });
  Then(/^the category will be added to the task$/, async () => {
      await TaskPage.verifyCategoryAdded();
-     await TaskPage.goBackTaskCreated();
  });
  //------------------AC-13-------------------------------//
  Then(/^the user taps on the "Due Date" option$/, async () => {

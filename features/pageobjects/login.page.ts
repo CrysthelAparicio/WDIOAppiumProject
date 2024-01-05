@@ -360,6 +360,8 @@ class TaskPage {
         await this.wait(2000);
         await this.btnCategory.click();
         await this.wait(2000);
+        await this.btnCategory.click();
+        await this.wait(2000);
         await this.personalTab.click();
         await this.wait(2000);
         await expect(this.taskItem).toHaveTextContaining(this.valueItem);

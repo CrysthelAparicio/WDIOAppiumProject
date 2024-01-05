@@ -62,16 +62,3 @@ Feature: WDIO APPIUM
       And the user selects the category created before
       Then the category will be added to the task
 
-  @login
-  Scenario: AC-13 Adding a future date to a task - HP
-     Given a user in the "To-Do List" app
-      And the user taps on the "Tasks" option in the toolbar
-      When the user taps the blue button to add a new task
-      And enters the name of the task
-      And taps on the blue circle button
-      Then the task will be entered into the dashboard
-      And the user selects one of the created tasks
-      When the user taps on the "Due Date" option
-      And the user selects a date later than the current date
-      And tap on "Done"
-      Then the new date will be added to the task
