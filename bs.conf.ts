@@ -6,14 +6,14 @@ const __dirname = dirname(__filename);
 
 const config = {
     
-    user: process.env.BROWSERSTACK_USERNAME || 'crysthelaparicio_lwgv4M',
-    key: process.env.BROWSERSTACK_ACCESS_KEY || 'ybhNhhfnroG7n58gtr7c',
+    user: process.env.BROWSERSTACK_USERNAME || 'apicrys_vaVX2O',
+    key: process.env.BROWSERSTACK_ACCESS_KEY || 'ppTUzkwxkYG6L1VaTLjz',
     hostname: 'hub.browserstack.com',
     services: [
       [
         'browserstack',
         {
-          app: 'bs://8259afec36fb9be7e5c799b5eb2bf2a5739f1174',
+          app: 'bs://44c5d2ae65e95514017f4757b2555c2ab0e4567a',
           autoGrantPermissions: 'true',
           buildIdentifier: "${BUILD_NUMBER}",
           browserstackLocal: true
