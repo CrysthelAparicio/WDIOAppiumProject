@@ -1,1 +1,2 @@
 [Fri, 05 Jan 2024 18:30:25 GMT] Error from server Error: listen EADDRINUSE: address already in use \\.\pipe\browserstack\daemonInstance - \\.\pipe\browserstack\daemonInstance
+[Fri, 05 Jan 2024 22:03:41 GMT] Error from server Error: listen EADDRINUSE: address already in use \\.\pipe\browserstack\daemonInstance - \\.\pipe\browserstack\daemonInstance

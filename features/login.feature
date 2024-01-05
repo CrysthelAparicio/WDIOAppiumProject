@@ -2,7 +2,7 @@ Feature: WDIO APPIUM
 
   @login
   Scenario: AC-06 Add new task button - HP
-    Given a user in the "To-Do List" app
+    Given a user in the "To-Do List" app first
     When the user taps on the "Tasks" option in the toolbar
     Then a blue button will be displayed at the top, right side of the toolbar
 
@@ -35,6 +35,7 @@ Feature: WDIO APPIUM
     When the user taps the blue button to add a new task
     And enters the name of the task
     And taps on the blue circle button
+    And user go back after indications
     Then the task will be entered into the dashboard
 
   @login
@@ -54,6 +55,7 @@ Feature: WDIO APPIUM
       When the user taps the blue button to add a new task
       And enters the name of the task
       And taps on the blue circle button
+      And user go back after task created
       Then the task will be entered into the dashboard
       And the user selects one of the created tasks
       When the user taps on the "No category" dropdown at the top of the page
