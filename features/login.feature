@@ -61,4 +61,3 @@ Feature: WDIO APPIUM
       When the user taps on the "No category" dropdown at the top of the page
       And the user selects the category created before
       Then the category will be added to the task
-
