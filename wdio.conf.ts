@@ -73,6 +73,7 @@ export const config: Options.Testrunner = {
         platformName: 'Android',
         'appium:deviceName': 'emulator-5554',
         'appium:platformVersion': '11',
+        'appium:noReset': false,
         'appium:automationName': 'UiAutomator2',
         'appium:appPackage': 'todolist.scheduleplanner.dailyplanner.todo.reminders',
         'appium:appActivity': 'app.todolist.activity.MainActivity',
