@@ -140,8 +140,18 @@ class TaskPage {
         return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/dialog_confirm');
      }
      
+     public get btnContinue(){
+        return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/welcome_start');
+     }
      
-     
+     public get btnCloseOffer(){
+        return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/toolbar_back');
+     }
+
+     public get btnCloseDialog(){
+        return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/dialog_close');
+     }
+
    /**
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
@@ -152,6 +162,11 @@ class TaskPage {
     }
 
     public async home () {
+        
+         await this.btnContinue.click();
+         await this.btnCloseOffer.click();
+         await this.btnCloseDialog.click();
+         
          await expect(this.textAll).toHaveTextContaining('All');
          await this.wait(2000);
  
