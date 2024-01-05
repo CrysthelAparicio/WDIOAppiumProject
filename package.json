@@ -4,6 +4,7 @@
   "devDependencies": {
     "@types/jquery": "^3.5.29",
     "@wdio/appium-service": "^8.27.0",
+    "@wdio/browserstack-service": "^8.27.1",
     "@wdio/cli": "^8.27.1",
     "@wdio/cucumber-framework": "^8.27.1",
     "@wdio/local-runner": "^8.27.0",
@@ -14,9 +15,12 @@
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.ts --cucumberOpts.tags",
-    "wdio:login": "wdio run ./wdio.conf.ts --cucumberOpts.tags  @login",
-    "wdio:popus": "wdio run ./wdio.conf.ts --cucumberOpts.tags  @popups"
-    
+    "wdio:login": "wdio run ./wdio.conf.ts --cucumberOpts.tags @login",
+    "wdio:pending": "wdio run ./wdio.conf.ts --cucumberOpts.tags @pending",
+    "wdio:popups": "wdio run ./wdio.conf.ts --cucumberOpts.tags @popups",
+
+    "wdio-bs:login": "wdio run ./bs.conf.ts --cucumberOpts.tags @login",
+    "wdio-bs:pending": "wdio run ./bs.conf.ts --cucumberOpts.tags @pending",
+    "wdio-bs:popups": "wdio run ./bs.conf.ts --cucumberOpts.tags @popups"
   }
 }
