@@ -10,6 +10,11 @@ Feature: WDIO APPIUM
     When the user taps on the "Tasks" option in the toolbar
     Then the message "Click here to create your first task" will be displayed above the button to add tasks
 
+ Scenario: AC-08 Popup to enter task name - HP
+    Given a user in the "To-Do List" app
+    And the user taps on the "Tasks" option in the toolbar
+    When the user taps the blue button to add a new task
+    Then a popup will appear to enter the task name
 
   Scenario: AC-09 Entering characters in the popup - HP
     Given a user in the "To-Do List" app

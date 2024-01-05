@@ -205,8 +205,11 @@ class TaskPage {
         this.valueItem='My Task - ' + random;
         await this.inputNewTask.setValue(this.valueItem);
         await this.wait(5000);
-      
-      
+    }
+    public async newNameDisplayed () {
+       
+        await this.inputNewTask.isDisplayed();
+        await this.wait(5000);
     }
 
     public async enterNewName2 () {

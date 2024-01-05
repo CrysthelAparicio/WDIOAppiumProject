@@ -18,6 +18,12 @@ Then(/^a blue button will be displayed at the top, right side of the toolbar$/, 
 Then(/^the message "Click here to create your first task" will be displayed above the button to add tasks$/, async () => {
     await TaskPage.AssertionMessageDisplayed();
 });
+//-------------------AC-08--------------------------------//
+
+Then(/^a popup will appear to enter the task name$/, async () => {
+    await TaskPage.newNameDisplayed();
+});
+
 
 //------------------AC-09-------------------------------//
 
@@ -31,7 +37,7 @@ Then(/^the user taps on the space to add the task name$/, async () => {
     await TaskPage.tapsOnTaskName();
 });
 Then(/^the mobile keyboard will be activated to enter a name$/, async () => {
-    await TaskPage.enterNewName2();
+    await TaskPage.enterNewName();
 });
 
 
