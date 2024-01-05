@@ -60,6 +60,13 @@ npm install
 - [NodeJS](https://nodejs.org/en/)
 - [Chrome](https://www.google.com/intl/es_mx/chrome/)
 
+## BrowserStack Integration
+https://app-automate.browserstack.com/builds/b60e1e5e778e4592606313743caad700d3ac044c/sessions/c09a34dfe9b8691eaf3d98337db8341e03c0d090?auth_token=8ffe2f6f3ac2598246344a935d28e15f5fde9628ecaa575eec0664e64c93dc09
+![image](https://github.com/CrysthelAparicio/WDIOAppiumProject/assets/35875131/0ce31c98-7ad4-4c53-8066-a4ff14b5b28a)
+
+![image](https://github.com/CrysthelAparicio/WDIOAppiumProject/assets/35875131/899f0d6f-5d97-4f7e-9f97-bd3cac174038)
+
+
 ## License
 For the Volaris company only.   
 
