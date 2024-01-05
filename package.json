@@ -14,6 +14,7 @@
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.ts"
+    "wdio": "wdio run ./wdio.conf.ts --cucumberOpts.tags",
+    "wdio:popus": "wdio run ./wdio.conf.ts --cucumberOpts.tags  @popups"
   }
 }
