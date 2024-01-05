@@ -9,11 +9,11 @@ const pages = {
     task: TaskPage
 }
 
-Given(/^I am on the (\w+) page$/, async (page) => {
+Given("I am on the login page", async (page) => {
    ////
 });
 
-When(/^the user taps on the "Tasks" option in the toolbar$/, async () => {
+When('the user taps on the "Tasks" option in the toolbar', async () => {
     await TaskPage.AssertionCreateTask()
 });
 

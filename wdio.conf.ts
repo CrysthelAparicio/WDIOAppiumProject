@@ -71,8 +71,8 @@ export const config: Options.Testrunner = {
     capabilities: [{
         // capabilities for local Appium web tests on an Android Emulator
         platformName: 'Android',
-        'appium:deviceName': 'emulator-5554',
-        'appium:platformVersion': '11.0',
+        'appium:deviceName': 'sdk_test',
+        'appium:platformVersion': '11',
         'appium:automationName': 'UiAutomator2',
         'appium:appPackage': 'todolist.scheduleplanner.dailyplanner.todo.reminders',
         'appium:appActivity': 'app.todolist.activity.MainActivity',
@@ -154,7 +154,7 @@ export const config: Options.Testrunner = {
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
-        require: ['./features/step-definitions/steps.ts'],
+        require: ['./features/step-definitions/*.ts'],
         // <boolean> show full backtrace for errors
         backtrace: false,
         // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
