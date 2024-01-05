@@ -42,7 +42,10 @@ login.feature is a feature definition file used in behavior-based software devel
 ## Installation
 Once the repository is cloned, in the command line paste the following command: 
 ```
-npm install
+- npm install
+- npm init wdio@latest (https://webdriver.io/docs/gettingstarted/)
+-  npm install --save-dev @wdio/browserstack-service
+
 ```
 ## Usage
 ### Open Tests visually
@@ -51,14 +54,34 @@ npm install
 
 - Command to execute one feature at a time
  ```sh
+   npm run wdio:login
+   npm run wdio:pending
    npm run wdio:popups
- ```
+ ```----------------
+ run with browserstack 
 
+   npm run wdio-bs:login
+   npm run wdio-bs:pending
+   npm run wdio-bs:popups
+```
+### Browserstack integracion Live + WebdriverIO
+
+![Alt text](image-1.png)
+
+![Alt text](image-2.png)
+
+## Description 
+In this link you can see the video of the integration with browserstack :
+
+https://app-automate.browserstack.com/builds/b60e1e5e778e4592606313743caad700d3ac044c/sessions/c09a34dfe9b8691eaf3d98337db8341e03c0d090?auth_token=8ffe2f6f3ac2598246344a935d28e15f5fde9628ecaa575eec0664e64c93dc09 
 
 ## Software needed
 - [Visual Studio Code](https://code.visualstudio.com/).
 - [NodeJS](https://nodejs.org/en/)
-- [Chrome](https://www.google.com/intl/es_mx/chrome/)
+
+ 
+
+#
 
 ## License
 For the Volaris company only.   

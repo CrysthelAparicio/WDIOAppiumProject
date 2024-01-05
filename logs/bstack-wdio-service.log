@@ -1,0 +1,12 @@
+[90m2024-01-05T22:28:19.131Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Using app: bs://8259afec36fb9be7e5c799b5eb2bf2a5739f1174
+[90m2024-01-05T22:28:19.133Z[39m [33mWARN[39m [97m@wdio/browserstack-service[39m Skipping buildIdentifier as buildName is not passed.
+[90m2024-01-05T22:28:19.134Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2024-01-05T22:28:19.910Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"build_hashed_id":"s7gqeo5ksv2p1ve04t9qiiechbkfxolyx4uxwayo","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiI3OTA5ODk0IiwiZ3JvdXBfaWQiOjc4MTc2NjcsInVzZXJfaWQiOjc5MDk4OTQsImJ1aWxkX2hhc2hlZF9pZCI6InM3Z3FlbzVrc3YycDF2ZTA0dDlxaWllY2hia2Z4b2x5eDR1eHdheW8iLCJob29rX2FzX3Rlc3QiOiIxIiwiaWF0IjoxNzA0NDkzNjk3LCJleHAiOjE3MDQ4MzkyOTd9.lFI97ZUULuHiGTWg3wDei0HJx3Q74smbMZxJoicJHGM","allow_screenshots":true}
+[90m2024-01-05T22:28:24.104Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Browserstack Local successfully started after 4164.372600000001ms
+[90m2024-01-05T22:28:34.738Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2024-01-05T22:28:34.738Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2024-01-05T22:28:34.873Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: ""
+[90m2024-01-05T22:28:35.816Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Response - {
+  status: 'success',
+  message: 'Logs upload successful in file - logs.gz'
+}
