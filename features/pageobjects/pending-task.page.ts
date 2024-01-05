@@ -8,21 +8,15 @@ class PendingTaskPage {
     }
     
     public get btnCheckTask () {
-        return $('~(//android.view.View[@resource-id="todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_check"])[1]');
+        return $('(//android.view.View[@resource-id="todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_check"])[1]');
     }
 
     public get btnCheckTaskSelected () {
-        return $('~//android.widget.TextView[@resource-id="todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_text" and @selected="true"]');
+        return $('//android.widget.TextView[@resource-id="todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_text" and @selected="true"]');
     }
 
     async wait(milliseconds: number): Promise<void> {
         return new Promise(resolve => setTimeout(resolve, milliseconds));
-    }
-
-    public async home () {
-        await expect(this.textAll).toHaveTextContaining('All');
-        await this.wait(5000);
-
     }
 
     public async clickCheckTask () {
@@ -32,7 +26,6 @@ class PendingTaskPage {
     public async assertionCheckTaskSelected () {
         await expect(this.btnCheckTaskSelected).toBeDisplayed(); 
     }
-
 
 }
 

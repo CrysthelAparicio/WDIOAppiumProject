@@ -1,5 +1,5 @@
 import { Given, When, Then } from '@wdio/cucumber-framework';
-import TaskPage from '../pageobjects/task.page.js';
+import TaskPage from '../pageobjects/login.page.js';
 
 
 Given(/^a user in the "To-Do List" app$/, async () => {
