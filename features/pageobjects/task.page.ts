@@ -1,23 +1,22 @@
 import { $ } from '@wdio/globals'
-import Page from './page.js';
 
 /**
  * sub page containing specific selectors and methods for a specific page
  */
-class TaskPage extends Page {
+class TaskPage {
     /**
      * define selectors using getter methods
      */
     public get MessageValidationCreateTask () {
-        return $('~todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_none');
+        return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_none');
     }
 
     public get btnAddTask () {
-        return $('~todolist.scheduleplanner.dailyplanner.todo.reminders:id/iv_task_add');
+        return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/iv_task_add');
     }
 
     public get btnTask () {
-        return $('~todolist.scheduleplanner.dailyplanner.todo.reminders:id/tasks_img');
+        return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/tasks_img');
     }
 
     public get btnMenu () {
@@ -67,28 +66,47 @@ class TaskPage extends Page {
     public get btnTaskCreate () {
         return $('~todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_btn');
     }
-
-    /**
+    public get textAll () {
+        return $('//android.widget.TextView[@resource-id="todolist.scheduleplanner.dailyplanner.todo.reminders:id/category_text" and @text="All"]');
+    }
+   /**
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
      */
-    public async AssertionCreateTask () {
-    
-        await this.btnAddTask.click();
-        await this.wait(2000);
+
+    async wait(milliseconds: number): Promise<void> {
+    return new Promise(resolve => setTimeout(resolve, milliseconds));
+    }
+
+    public async home () {
+         await expect(this.textAll).toHaveTextContaining('All');
+         await this.wait(5000);
+ 
+     }
+
+    public async TabTask () {
+        await this.btnTask.click();
+        await this.wait(5000);
+
+    }
+    public async AssertionMessageDisplayed () {
+         await expect(this.MessageValidationCreateTask).toHaveTextContaining('Click here to create your first task.');
+         await this.wait(5000);
+ 
+     }
+
+     public async blueButtonDisplayed () {
+        await expect(this.btnAddTask).toBeDisplayed();
+        await this.wait(5000);
 
     }
    
-    async wait(milliseconds: number): Promise<void> {
-        return new Promise(resolve => setTimeout(resolve, milliseconds));
-    }
+   
 
     /**
      * overwrite specific options to adapt it to page object
      */
-    public open () {
-        return super.open('login');
-    }
+ 
 }
 
 export default new TaskPage();

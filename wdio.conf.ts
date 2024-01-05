@@ -72,11 +72,11 @@ export const config: Options.Testrunner = {
         // capabilities for local Appium web tests on an Android Emulator
         platformName: 'Android',
         'appium:deviceName': 'emulator-5554',
-        'appium:platformVersion': '11.0',
+        'appium:platformVersion': '11',
         'appium:automationName': 'UiAutomator2',
         'appium:appPackage': 'todolist.scheduleplanner.dailyplanner.todo.reminders',
         'appium:appActivity': 'app.todolist.activity.MainActivity',
-        'appium:app': __dirname + '/app/To-Do-List-Schedule Planner.apk'
+        'appium:app': __dirname + '/app/To-Do-List-SchedulePlanner.apk'
     }],
 
     //
@@ -126,7 +126,17 @@ export const config: Options.Testrunner = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['appium'],
+    services: [   [
+        'appium',{
+            args:{
+            address: '127.0.0.1',
+            port: 4723
+           },
+           logPath: './'
+
+        }
+
+     ] ],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
