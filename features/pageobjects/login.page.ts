@@ -54,7 +54,7 @@ class TaskPage {
     }
 
     public get btnNewCategory () {
-        return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/item_icon2');
+        return $('//android.widget.TextView[@resource-id="todolist.scheduleplanner.dailyplanner.todo.reminders:id/item_text" and @text="Create New"]');
     }
 
     public get btnCreateCalendar () {
@@ -72,7 +72,7 @@ class TaskPage {
         return $('//android.widget.TextView[@resource-id="todolist.scheduleplanner.dailyplanner.todo.reminders:id/category_text" and @text="All"]');
     }
      public get taskItem(){
-        return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_text');
+        return $('(//android.widget.LinearLayout[@resource-id="todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_slideLinearLayout"])[1]');
      }
      public get inputNewCategory(){
         return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/dialog_input');
@@ -152,6 +152,18 @@ class TaskPage {
         return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/dialog_close');
      }
 
+     public get btnCloseDialogHabits(){
+        return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/dialog_close');
+     }
+
+     public get optionAll(){
+        return $('//android.widget.LinearLayout[@resource-id="todolist.scheduleplanner.dailyplanner.todo.reminders:id/item_linearlayout"]/android.view.ViewGroup[1]');
+     }
+
+     public get btnBackTaskCreated(){
+        return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/toolbar_back');
+     }
+
    /**
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
@@ -161,7 +173,7 @@ class TaskPage {
     return new Promise(resolve => setTimeout(resolve, milliseconds));
     }
 
-    public async home () {
+    public async homeFirst () {
         
          await this.btnContinue.click();
          await this.btnCloseOffer.click();
@@ -171,12 +183,34 @@ class TaskPage {
          await this.wait(2000);
  
      }
-
-    public async TabTask () {
-        await this.btnTask.click();
+     
+     public async home() {
+        await expect(this.textAll).toHaveTextContaining('All');
         await this.wait(2000);
 
     }
+
+    public async TabTask () {
+        await this.btnTask.click();
+        await this.wait(5000);
+
+        const isCloseBtnDisplayed = await this.waitForElement(this.btnCloseDialogHabits);
+
+        if (isCloseBtnDisplayed) {
+            await this.btnCloseDialogHabits.click();
+        }
+
+    }
+
+    public async waitForElement(element) {
+        try {
+            await expect(element).toBeDisplayed();
+            return true;
+        } catch (e) {
+            return false;
+        }
+    }
+
     public async AssertionMessageDisplayed () {
          await expect(this.MessageValidationCreateTask).toHaveTextContaining('Click here to create your first task.');
          await this.wait(2000);
@@ -213,6 +247,17 @@ class TaskPage {
         await this.wait(5000);
       
     }
+    public async newNameDisplayed () {
+       
+        await this.inputNewTask.isDisplayed();
+        await this.wait(5000);
+    }
+
+    public async goBackAfterSetNewName(){
+        await browser.back();
+        await browser.back();
+    }
+
     public async clickButtonSend () {
         await this.btnTaskCreate.click();
         await this.wait(5000);
@@ -234,24 +279,30 @@ class TaskPage {
         await expect(this.taskItem).toBeDisplayed();
         await expect(this.taskItem).toHaveTextContaining(this.valueItem);
         await this.wait(2000);
-
     }
 
+    public async goBackAfterButtonCreate(){
+        const isButtonDisplayed = await this.waitForElement(this.btnTaskCreate);
+        if (isButtonDisplayed) {
+            await browser.back();
+            await browser.back();
+        }
+    }
     //---------------------------------------------------AC-11-----------------------------------------------------//
 
     public async clickMainMenu () {
         await this.btnMenu.click();
-        await this.wait(2000);
+        await this.wait(3000);
 
     }
     public async tapsCategory () {
         await this.btnCategory.click();
-        await this.wait(2000);
+        await this.wait(3000);
 
     }
     public async categoryTapsCreateNew () {
         await this.btnNewCategory.click();
-        await this.wait(2000);
+        await this.wait(3000);
 
     }
     public async enterCategoryName () {
@@ -270,7 +321,14 @@ class TaskPage {
         const itemTitle = $('//android.widget.TextView[@resource-id="todolist.scheduleplanner.dailyplanner.todo.reminders:id/category_text" and @text="'+this.valueItem+'"]');
         await expect(itemTitle).toHaveTextContaining(this.valueItem);
         await this.wait(2000);
+    }
 
+    public async goBackOptionAll(){
+        const isButtonDisplayed = await this.waitForElement(this.btnAll);
+        if (!isButtonDisplayed) {
+            this.btnMenu.click();
+            this.optionAll.click();
+        }
     }
  //---------------------------------------------------AC-12-----------------------------------------------------//
 
@@ -278,7 +336,7 @@ class TaskPage {
         // await driver.touchAction({actions: 'tap', x: 1238, y: 1451});
         // await driver.touchAction({actions: 'tap', x: 1234, y: 1451});
         // await driver.touchAction({actions: 'tap', x: 1256, y: 1455});
-        await driver.touchAction({
+        /*await driver.touchAction({
             action: 'tap', x: 1238, y: 1451
         });
         await driver.touchAction({
@@ -286,7 +344,7 @@ class TaskPage {
         });
         await driver.touchAction({
             action: 'tap', x: 1256, y: 1455
-        });
+        });*/
         
         await this.taskItem.click();
         await this.wait(2000);
@@ -316,6 +374,10 @@ class TaskPage {
 
     }
 
+    public async goBackTaskCreated(){
+        await this.btnBackTaskCreated.click();
+        await this.wait(3000)
+    }
     //---------------------------------------------------AC-13----------------------------------------------------//
 
     public async tapsCalendarDueDate () {

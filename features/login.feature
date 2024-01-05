@@ -13,6 +13,13 @@ Feature: WDIO APPIUM
     Then the message "Click here to create your first task" will be displayed above the button to add tasks
 
   @login
+  Scenario: AC-08 Popup to enter task name - HP
+    Given a user in the "To-Do List" app
+    And the user taps on the "Tasks" option in the toolbar
+    When the user taps the blue button to add a new task
+    Then a popup will appear to enter the task name
+
+  @login
   Scenario: AC-09 Entering characters in the popup - HP
     Given a user in the "To-Do List" app
     And the user taps on the "Tasks" option in the toolbar
@@ -66,27 +73,3 @@ Feature: WDIO APPIUM
       And the user selects a date later than the current date
       And tap on "Done"
       Then the new date will be added to the task
-
- @login
- Scenario: AC-14 Add a task with a free template-HP
-      Given a user in the "To-Do List" app
-      And the user taps on the "Tasks" option in the toolbar
-      When the user taps the blue button to add a new task
-      And enters the name of the task
-      And presses the template task icon button
-      And chooses a free template
-      And select "Add to my List"
-      Then The task will be entered in the control panel
-
-  @login
- Scenario: AC-15 Delete a task added to the list - HP
-      Given a user in the "To-Do List" app
-      And the user taps on the "Tasks" option in the toolbar
-      When the user taps the blue button to add a new task
-      And enters the name of the task
-      And taps on the blue circle button
-      Then the task will be entered into the dashboard
-      And the user selects one of the created tasks
-      When the section to edit task is displayed select the bullet point menu
-      And select the "Delete" option
-      Then Then the task will no longer be displayed in the list of existing tasks

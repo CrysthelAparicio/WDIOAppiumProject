@@ -3,12 +3,18 @@ import TaskPage from '../pageobjects/login.page.js';
 
 
 //-------------------AC-06--------------------------------//
+Given(/^a user in the "To-Do List" app first$/, async () => {
+    await TaskPage.homeFirst();
+ });
+ 
 Given(/^a user in the "To-Do List" app$/, async () => {
     await TaskPage.home();
  });
+
  When(/^the user taps on the "Tasks" option in the toolbar$/, async () => {
-     await TaskPage.TabTask();
- });
+    await TaskPage.TabTask();
+});
+
  Then(/^a blue button will be displayed at the top, right side of the toolbar$/, async () => {
      await TaskPage.blueButtonDisplayed();
  });
@@ -20,6 +26,13 @@ Given(/^a user in the "To-Do List" app$/, async () => {
      await TaskPage.AssertionMessageDisplayed();
  });
  
+ //-------------------AC-08--------------------------------//
+
+Then(/^a popup will appear to enter the task name$/, async () => {
+    await TaskPage.newNameDisplayed();
+    await TaskPage.goBackAfterButtonCreate();
+});
+
  //------------------AC-09-------------------------------//
  
  Then(/^the user taps the blue button to add a new task$/, async () => {
@@ -33,6 +46,7 @@ Given(/^a user in the "To-Do List" app$/, async () => {
  });
  Then(/^the mobile keyboard will be activated to enter a name$/, async () => {
      await TaskPage.enterNewName();
+     await TaskPage.goBackAfterSetNewName();
  });
  
  
@@ -45,6 +59,7 @@ Given(/^a user in the "To-Do List" app$/, async () => {
  });
  Then(/^the task will be entered into the dashboard$/, async () => {
      await TaskPage.displayedIntoDashboard();
+     await TaskPage.goBackAfterButtonCreate();
  });
  //------------------AC-11-------------------------------//
  Then(/^he is in the main menu of the app$/, async () => {
@@ -64,6 +79,7 @@ Given(/^a user in the "To-Do List" app$/, async () => {
  });
  Then(/^the new category will be saved and added$/, async () => {
      await TaskPage.newCategoryDisplayed();
+     await TaskPage.goBackOptionAll();
  });
  
  //------------------AC-12-------------------------------//
@@ -78,6 +94,7 @@ Given(/^a user in the "To-Do List" app$/, async () => {
  });
  Then(/^the category will be added to the task$/, async () => {
      await TaskPage.verifyCategoryAdded();
+     await TaskPage.goBackTaskCreated();
  });
  //------------------AC-13-------------------------------//
  Then(/^the user taps on the "Due Date" option$/, async () => {

@@ -2,7 +2,7 @@ Feature: Pending Task
 
   @pending
   Scenario: Check Task as Completed - HP
-    Given a user in the "To-Do List" app
+    Given a user in the "To-Do List" app first
     When the user taps on the "Tasks" option in the toolbar
     And the user taps the blue button to add a new task
     And enters the name of the task

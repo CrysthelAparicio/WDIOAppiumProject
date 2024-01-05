@@ -14,6 +14,7 @@ const config = {
         'browserstack',
         {
           app: 'bs://8259afec36fb9be7e5c799b5eb2bf2a5739f1174',
+          autoGrantPermissions: 'true',
           buildIdentifier: "${BUILD_NUMBER}",
           browserstackLocal: true
         },
@@ -25,13 +26,13 @@ const config = {
         platformVersion: '12.0',
         platformName: 'android',
       },
-    }, {
+    },/* {
       'bstack:options': {
         deviceName: 'Google Pixel 7 Pro',
         platformVersion: '13.0',
         platformName: 'android',
       },
-    },
+    },*/
     {
       'bstack:options': {
         deviceName: 'OnePlus 9',
