@@ -202,6 +202,18 @@ class TaskPage {
         await this.btnTaskCreate.click();
         await this.wait(5000);
 
+        let estado = false
+        try{
+            await expect(this.btnTaskCreate).toBeDisplayed();
+            estado = true
+        }catch(e){
+            estado = false
+        }
+        if(estado){
+            await browser.back();
+            await browser.back();
+        }
+
     }
     public async displayedIntoDashboard () {
         await expect(this.taskItem).toBeDisplayed();
