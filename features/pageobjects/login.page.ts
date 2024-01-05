@@ -72,7 +72,7 @@ class TaskPage {
         return $('//android.widget.TextView[@resource-id="todolist.scheduleplanner.dailyplanner.todo.reminders:id/category_text" and @text="All"]');
     }
      public get taskItem(){
-        return $('(//android.widget.LinearLayout[@resource-id="todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_slideLinearLayout"])[1]');
+        return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_text');
      }
      public get inputNewCategory(){
         return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/dialog_input');
@@ -261,19 +261,6 @@ class TaskPage {
     public async clickButtonSend () {
         await this.btnTaskCreate.click();
         await this.wait(5000);
-
-        let estado = false
-        try{
-            await expect(this.btnTaskCreate).toBeDisplayed();
-            estado = true
-        }catch(e){
-            estado = false
-        }
-        if(estado){
-            await browser.back();
-            await browser.back();
-        }
-
     }
     public async displayedIntoDashboard () {
         await expect(this.taskItem).toBeDisplayed();
@@ -287,6 +274,12 @@ class TaskPage {
             await browser.back();
             await browser.back();
         }
+    }
+
+    public async goBackIndications(){
+        await browser.back();    
+        await browser.back();
+       
     }
     //---------------------------------------------------AC-11-----------------------------------------------------//
 
