@@ -76,7 +76,8 @@ export const config: Options.Testrunner = {
         'appium:automationName': 'UiAutomator2',
         'appium:appPackage': 'todolist.scheduleplanner.dailyplanner.todo.reminders',
         'appium:appActivity': 'app.todolist.activity.MainActivity',
-        'appium:app': __dirname + '/app/To-Do-List-SchedulePlanner.apk'
+        'appium:app': __dirname + '/app/To-Do-List-SchedulePlanner.apk',
+        'appium:noReset': true
     }],
 
     //

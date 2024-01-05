@@ -1,4 +1,4 @@
-import { Given, When, Then } from '@wdio/cucumber-framework';
+import { Given, When, Then} from '@wdio/cucumber-framework';
 import TaskPage from '../pageobjects/login.page.js';
 import PendingTaskPage from '../pageobjects/pending-task.page.js';
 
