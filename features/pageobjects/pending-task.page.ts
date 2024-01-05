@@ -1,8 +1,11 @@
-import { $ } from '@wdio/globals'
-import Page from './page.js';
+import { $ } from '@wdio/globals';
 
 
-class PendingTaskPage extends Page {
+class PendingTaskPage {
+    
+    public get textAll () {
+        return $('//android.widget.TextView[@resource-id="todolist.scheduleplanner.dailyplanner.todo.reminders:id/category_text" and @text="All"]');
+    }
     
     public get btnCheckTask () {
         return $('~(//android.view.View[@resource-id="todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_check"])[1]');
@@ -16,8 +19,10 @@ class PendingTaskPage extends Page {
         return new Promise(resolve => setTimeout(resolve, milliseconds));
     }
 
-    public open () {
-        return super.open('login');
+    public async home () {
+        await expect(this.textAll).toHaveTextContaining('All');
+        await this.wait(5000);
+
     }
 
     public async clickCheckTask () {

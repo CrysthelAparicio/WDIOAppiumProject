@@ -1,20 +1,19 @@
 import { Given, When, Then } from '@wdio/cucumber-framework';
-import { expect, $ } from '@wdio/globals'
-
-import LoginPage from '../pageobjects/task.page.js';
-import SecurePage from '../pageobjects/secure.page.js';
 import TaskPage from '../pageobjects/task.page.js';
 
-const pages = {
-    task: TaskPage
-}
 
-Given(/^I am on the (\w+) page$/, async (page) => {
-   ////
+Given(/^a user in the "To-Do List" app$/, async () => {
+   await TaskPage.home();
+});
+When(/^the user taps on the "Tasks" option in the toolbar$/, async () => {
+    await TaskPage.TabTask();
+});
+Then(/^the message "Click here to create your first task" will be displayed above the button to add tasks$/, async () => {
+    await TaskPage.AssertionMessageDisplayed();
 });
 
-When(/^the user taps on the "Tasks" option in the toolbar$/, async () => {
-    await TaskPage.AssertionCreateTask()
+Then(/^a blue button will be displayed at the top, right side of the toolbar$/, async () => {
+    await TaskPage.blueButtonDisplayed();
 });
 
 
