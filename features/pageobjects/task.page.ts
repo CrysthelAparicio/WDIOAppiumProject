@@ -48,7 +48,7 @@ class TaskPage {
     }
 
     public get inputNewTask () {
-        return $('~todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_input');
+        return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_input');
     }
 
     public get btnNewCategory () {
@@ -64,7 +64,7 @@ class TaskPage {
     }
 
     public get btnTaskCreate () {
-        return $('~todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_btn');
+        return $('id:todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_btn');
     }
     public get textAll () {
         return $('//android.widget.TextView[@resource-id="todolist.scheduleplanner.dailyplanner.todo.reminders:id/category_text" and @text="All"]');
@@ -80,32 +80,55 @@ class TaskPage {
 
     public async home () {
          await expect(this.textAll).toHaveTextContaining('All');
-         await this.wait(5000);
+         await this.wait(2000);
  
      }
 
     public async TabTask () {
         await this.btnTask.click();
-        await this.wait(5000);
+        await this.wait(2000);
 
     }
     public async AssertionMessageDisplayed () {
          await expect(this.MessageValidationCreateTask).toHaveTextContaining('Click here to create your first task.');
-         await this.wait(5000);
+         await this.wait(2000);
  
      }
 
      public async blueButtonDisplayed () {
         await expect(this.btnAddTask).toBeDisplayed();
+        await this.wait(2000);
+
+    }
+    //---------------------------------------------------AC-09-----------------------------------------------------//
+
+    public async userTapsBlueNewTask () {
+        await this.btnAddTask.click();
+        await this.wait(2000);
+
+    }
+    public async inputTaskNameDisplayed () {
+        await expect(this.inputNewTask).toBeDisplayed();
+        await expect(this.inputNewTask).toHaveTextContaining('Input new task here');
+        await this.wait(2000);
+
+    }
+    public async tapsOnTaskName () {
+        await this.inputNewTask.click();
+        await this.wait(2000);
+
+    }
+    public async enterNewName () {
+        const random = Math.floor((Math.random() * 1000));
+        (await this.inputNewTask).setValue('My Task - ' + random);
         await this.wait(5000);
 
     }
-   
-   
+    public async clickButtonSend () {
+        await this.btnTaskCreate.click();
+        await this.wait(5000);
 
-    /**
-     * overwrite specific options to adapt it to page object
-     */
+    }
  
 }
 

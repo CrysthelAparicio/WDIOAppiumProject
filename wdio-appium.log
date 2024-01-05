@@ -1,32 +1,32 @@
 [38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
 [38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appium:appActivity":"app.todolist.activity.MainActivity","appium:app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appium:appActivity":"app.todolist.activity.MainActivity","appium:app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk"}}[39m
-[38;5;16m[AppiumDriver@899f][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appium:appActivity":"app.todolist.activity.MainActivity","appium:app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk"},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appium:appActivity":"app.todolist.activity.MainActivity","appium:app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk"},"firstMatch":[{}]}]
-[38;5;16m[AppiumDriver@899f][0m Event 'newSessionRequested' logged at 1704431640347 (01:14:00 GMT-0400 (hora de Bolivia))
+[38;5;16m[AppiumDriver@7d89][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appium:appActivity":"app.todolist.activity.MainActivity","appium:app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk"},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appium:appActivity":"app.todolist.activity.MainActivity","appium:app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@7d89][0m Event 'newSessionRequested' logged at 1704435001197 (02:10:01 GMT-0400 (hora de Bolivia))
 [35m[Appium][39m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
 [35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
 [35m[Appium][39m Will require it at C:\Users\cybertron\Documents\proyectos\WDIOAppiumProject\node_modules\appium-uiautomator2-driver
 [35m[Appium][39m Requiring driver at C:\Users\cybertron\Documents\proyectos\WDIOAppiumProject\node_modules\appium-uiautomator2-driver\build\index.js
-[38;5;16m[AppiumDriver@899f][0m Appium v2.4.0 creating new AndroidUiautomator2Driver (v2.37.1) session
-[38;5;16m[AppiumDriver@899f][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
-[38;5;16m[AppiumDriver@899f][0m Appium's BaseDriver version is 9.5.0
-[38;5;16m[AppiumDriver@899f][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
-[38;5;32m[AndroidUiautomator2Driver@b7c0][0m Creating session with W3C capabilities: {
-[38;5;32m[AndroidUiautomator2Driver@b7c0][0m   "alwaysMatch": {
-[38;5;32m[AndroidUiautomator2Driver@b7c0][0m     "platformName": "Android",
-[38;5;32m[AndroidUiautomator2Driver@b7c0][0m     "appium:deviceName": "emulator-5554",
-[38;5;32m[AndroidUiautomator2Driver@b7c0][0m     "appium:platformVersion": "11",
-[38;5;32m[AndroidUiautomator2Driver@b7c0][0m     "appium:automationName": "UiAutomator2",
-[38;5;32m[AndroidUiautomator2Driver@b7c0][0m     "appium:appPackage": "todolist.scheduleplanner.dailyplanner.todo.reminders",
-[38;5;32m[AndroidUiautomator2Driver@b7c0][0m     "appium:appActivity": "app.todolist.activity.MainActivity",
-[38;5;32m[AndroidUiautomator2Driver@b7c0][0m     "appium:app": "C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk"
-[38;5;32m[AndroidUiautomator2Driver@b7c0][0m   },
-[38;5;32m[AndroidUiautomator2Driver@b7c0][0m   "firstMatch": [
-[38;5;32m[AndroidUiautomator2Driver@b7c0][0m     {}
-[38;5;32m[AndroidUiautomator2Driver@b7c0][0m   ]
-[38;5;32m[AndroidUiautomator2Driver@b7c0][0m }
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Session created with session id: a9846a81-a13c-45f9-86d0-196d6251b5b0
+[38;5;16m[AppiumDriver@7d89][0m Appium v2.4.0 creating new AndroidUiautomator2Driver (v2.37.1) session
+[38;5;16m[AppiumDriver@7d89][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@7d89][0m Appium's BaseDriver version is 9.5.0
+[38;5;16m[AppiumDriver@7d89][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;32m[AndroidUiautomator2Driver@cdeb][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@cdeb][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@cdeb][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@cdeb][0m     "appium:deviceName": "emulator-5554",
+[38;5;32m[AndroidUiautomator2Driver@cdeb][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@cdeb][0m     "appium:automationName": "UiAutomator2",
+[38;5;32m[AndroidUiautomator2Driver@cdeb][0m     "appium:appPackage": "todolist.scheduleplanner.dailyplanner.todo.reminders",
+[38;5;32m[AndroidUiautomator2Driver@cdeb][0m     "appium:appActivity": "app.todolist.activity.MainActivity",
+[38;5;32m[AndroidUiautomator2Driver@cdeb][0m     "appium:app": "C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk"
+[38;5;32m[AndroidUiautomator2Driver@cdeb][0m   },
+[38;5;32m[AndroidUiautomator2Driver@cdeb][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@cdeb][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@cdeb][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@cdeb][0m }
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Session created with session id: 953e05c2-f6af-4107-896a-03c85967591c
 [38;5;48m[BaseDriver][0m Using local app 'C:\Users\cybertron\Documents\proyectos\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Checking whether app is actually present
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Checking whether app is actually present
 [38;5;64m[ADB][0m Found 2 'build-tools' folders under 'C:\Users\cybertron\AppData\Local\Android\Sdk' (newest first):
 [38;5;64m[ADB][0m     C:\Users\cybertron\AppData\Local\Android\Sdk\build-tools\34.0.0
 [38;5;64m[ADB][0m     C:\Users\cybertron\AppData\Local\Android\Sdk\build-tools\33.0.1
@@ -51,7 +51,7 @@
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
 [38;5;64m[ADB][0m Current device property 'ro.build.version.release': 11
 [38;5;64m[ADB][0m Device API level: 30
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Relaxing hidden api policy
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Relaxing hidden api policy
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
@@ -65,9 +65,9 @@
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
 [38;5;80m[AndroidDriver][0m io.appium.settings is already running. There is no need to reset its permissions.
 [38;5;96m[Logcat][0m Starting logs capture with command: C:\\Users\\cybertron\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Forwarding UiAutomator2 Server port 6790 to local port 8201
-[38;5;64m[ADB][0m Forwarding system: 8201 to device: 6790
-[38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8201 tcp:6790'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Forwarding UiAutomator2 Server port 6790 to local port 8202
+[38;5;64m[ADB][0m Forwarding system: 8202 to device: 6790
+[38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8202 tcp:6790'
 [38;5;64m[ADB][0m Checking app cert for C:\Users\cybertron\Documents\proyectos\WDIOAppiumProject\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.15.3.apk
 [38;5;64m[ADB][0m Checking app cert for C:\Users\cybertron\Documents\proyectos\WDIOAppiumProject\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
 [38;5;64m[ADB][0m Using 'apksigner.jar' from 'C:\Users\cybertron\AppData\Local\Android\Sdk\build-tools\34.0.0\lib\apksigner.jar'
@@ -93,11 +93,11 @@
 [38;5;64m[ADB][0m Getting package info for 'io.appium.uiautomator2.server'
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
 [38;5;64m[ADB][0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('5.15.3' >= '5.15.3')
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Server packages status: [{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.15.3.apk","appId":"io.appium.uiautomator2.server"},{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Server packages are not going to be (re)installed
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Waiting up to 30000ms for services to be available
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Server packages status: [{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.15.3.apk","appId":"io.appium.uiautomator2.server"},{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Server packages are not going to be (re)installed
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Waiting up to 30000ms for services to be available
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
 [38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
 [38;5;64m[ADB][0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
@@ -120,202 +120,243 @@
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop todolist.scheduleplanner.dailyplanner.todo.reminders'
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear todolist.scheduleplanner.dailyplanner.todo.reminders'
 [38;5;80m[AndroidDriver][0m Performed fast reset on the installed 'todolist.scheduleplanner.dailyplanner.todo.reminders' application (stop and clear)
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Performing shallow cleanup of automation leftovers
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m No obsolete sessions have been detected (socket hang up)
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Performing shallow cleanup of automation leftovers
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m No obsolete sessions have been detected (socket hang up)
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Starting UIAutomator2 server 5.15.3
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Using UIAutomator2 server from 'C:\Users\cybertron\Documents\proyectos\WDIOAppiumProject\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.15.3.apk' and test from 'C:\Users\cybertron\Documents\proyectos\WDIOAppiumProject\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Starting UIAutomator2 server 5.15.3
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Using UIAutomator2 server from 'C:\Users\cybertron\Documents\proyectos\WDIOAppiumProject\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.15.3.apk' and test from 'C:\Users\cybertron\Documents\proyectos\WDIOAppiumProject\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Waiting up to 30000ms for UiAutomator2 to be online...
 [38;5;64m[ADB][0m Creating ADB subprocess with args: ["-P","5037","-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/status' to command name 'getStatus'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [GET /status] to [GET http://127.0.0.1:8201/status] with no body
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m socket hang up
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/status' to command name 'getStatus'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [GET /status] to [GET http://127.0.0.1:8202/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m socket hang up
 [38;5;112m[Instrumentation][0m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/status' to command name 'getStatus'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [GET /status] to [GET http://127.0.0.1:8201/status] with no body
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m socket hang up
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/status' to command name 'getStatus'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [GET /status] to [GET http://127.0.0.1:8201/status] with no body
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m The initialization of the instrumentation process took 2133ms
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/session' to command name 'createSession'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [POST /session] to [POST http://127.0.0.1:8201/session] with body: {"capabilities":{"firstMatch":[{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11","automationName":"UiAutomator2","appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appActivity":"app.todolist.activity.MainActivity","app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11","automationName":"UiAutomator2","appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appActivity":"app.todolist.activity.MainActivity","app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk"},"deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":{"capabilities":{"firstMatch":[{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11","automationName":"UiAutomator2","appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appActivity":"app.todolist.activity.MainActivity","app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11","automationName":"UiAutomator2","appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appActivity":"app.todolist.activity.MainActivity","app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk"},"deviceUDID":"emulator-5554"}],"alwaysMatch":{}},"session...
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Determined the downstream protocol as 'W3C'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/appium/device/pixel_ratio] with no body
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/appium/device/system_bars] with no body
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/window/current/size' to command name 'getWindowSize'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/window/current/size] with no body
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/appium/device/info] with no body
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/status' to command name 'getStatus'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [GET /status] to [GET http://127.0.0.1:8202/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m socket hang up
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/status' to command name 'getStatus'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [GET /status] to [GET http://127.0.0.1:8202/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m The initialization of the instrumentation process took 2174ms
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/session' to command name 'createSession'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [POST /session] to [POST http://127.0.0.1:8202/session] with body: {"capabilities":{"firstMatch":[{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11","automationName":"UiAutomator2","appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appActivity":"app.todolist.activity.MainActivity","app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11","automationName":"UiAutomator2","appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appActivity":"app.todolist.activity.MainActivity","app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk"},"deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":{"capabilities":{"firstMatch":[{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11","automationName":"UiAutomator2","appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appActivity":"app.todolist.activity.MainActivity","app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11","automationName":"UiAutomator2","appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appActivity":"app.todolist.activity.MainActivity","app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk"},"deviceUDID":"emulator-5554"}],"alwaysMatch":{}},"session...
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Determined the downstream protocol as 'W3C'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/appium/device/pixel_ratio] with no body
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/appium/device/system_bars] with no body
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/window/current/size' to command name 'getWindowSize'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/window/current/size] with no body
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/appium/device/info] with no body
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":3.5}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":{"height":2392,"width":1440}}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":{"statusBar":84}}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":{"androidId":"b7063fc38e8f3f60","apiVersion":"30","bluetooth":{"state":"ON"},"brand":"Android","carrierName":"Android","displayDensity":560,"locale":"en_US","manufacturer":"unknown","model":"Android SDK built for x86","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":141000,"linkUpstreamBandwidthKbps":141000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-30,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"netw...
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":3.5}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":{"height":2392,"width":1440}}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":{"statusBar":84}}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":{"androidId":"b7063fc38e8f3f60","apiVersion":"30","bluetooth":{"state":"ON"},"brand":"Android","carrierName":"Android","displayDensity":560,"locale":"en_US","manufacturer":"unknown","model":"Android SDK built for x86","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":141000,"linkUpstreamBandwidthKbps":141000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-30,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"netw...
 [38;5;80m[AndroidDriver][0m Screen already unlocked, doing nothing
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Starting 'todolist.scheduleplanner.dailyplanner.todo.reminders/app.todolist.activity.MainActivity and waiting for 'todolist.scheduleplanner.dailyplanner.todo.reminders/app.todolist.activity.MainActivity'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Starting 'todolist.scheduleplanner.dailyplanner.todo.reminders/app.todolist.activity.MainActivity and waiting for 'todolist.scheduleplanner.dailyplanner.todo.reminders/app.todolist.activity.MainActivity'
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n todolist.scheduleplanner.dailyplanner.todo.reminders/app.todolist.activity.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
-[38;5;16m[AppiumDriver@899f][0m New AndroidUiautomator2Driver session created successfully, session a9846a81-a13c-45f9-86d0-196d6251b5b0 added to master session list
-[38;5;16m[AppiumDriver@899f][0m Event 'newSessionStarted' logged at 1704431647945 (01:14:07 GMT-0400 (hora de Bolivia))
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Cached the protocol value 'W3C' for the new session a9846a81-a13c-45f9-86d0-196d6251b5b0
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Responding to client with driver.createSession() result: {"capabilities":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11","automationName":"UiAutomator2","appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appActivity":"app.todolist.activity.MainActivity","app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11","automationName":"UiAutomator2","appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appActivity":"app.todolist.activity.MainActivity","app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk"},"deviceUDID":"emulator-5554","pixelRatio":"3.5","statBarHeight":84,"viewportRect":{"left":0,"top":84,"width":1440,"height":2308},"de...
-[38;5;0m[HTTP][0m [37m<-- POST /session [39m[32m200[39m [90m7604 ms - 1230[39m
+[38;5;16m[AppiumDriver@7d89][0m New AndroidUiautomator2Driver session created successfully, session 953e05c2-f6af-4107-896a-03c85967591c added to master session list
+[38;5;16m[AppiumDriver@7d89][0m Event 'newSessionStarted' logged at 1704435008566 (02:10:08 GMT-0400 (hora de Bolivia))
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Cached the protocol value 'W3C' for the new session 953e05c2-f6af-4107-896a-03c85967591c
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.createSession() result: {"capabilities":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11","automationName":"UiAutomator2","appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appActivity":"app.todolist.activity.MainActivity","app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11","automationName":"UiAutomator2","appPackage":"todolist.scheduleplanner.dailyplanner.todo.reminders","appActivity":"app.todolist.activity.MainActivity","app":"C:\\Users\\cybertron\\Documents\\proyectos\\WDIOAppiumProject/app/To-Do-List-SchedulePlanner.apk"},"deviceUDID":"emulator-5554","pixelRatio":"3.5","statBarHeight":84,"viewportRect":{"left":0,"top":84,"width":1440,"height":2308},"de...
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[32m200[39m [90m7374 ms - 1230[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element[39m
 [38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//android.widget.TextView[@resource-id=\"todolist.scheduleplanner.dailyplanner.todo.reminders:id/category_text\" and @text=\"All\"]"}[39m
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@resource-id=\"todolist.scheduleplanner.dailyplanner.todo.reminders:id/category_text\" and @text=\"All\"]","a9846a81-a13c-45f9-86d0-196d6251b5b0"]
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Waiting up to 0 ms for condition
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/element' to command name 'findElement'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [POST /element] to [POST http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@resource-id=\"todolist.scheduleplanner.dailyplanner.todo.reminders:id/category_text\" and @text=\"All\"]","context":"","multiple":false}
-[38;5;0m[HTTP][0m [37m-->[39m [37mOPTIONS[39m [37m/wd/hub/session/a4970458-4b81-43ac-a7ce-56f75ba5218b/timeouts[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@resource-id=\"todolist.scheduleplanner.dailyplanner.todo.reminders:id/category_text\" and @text=\"All\"]","953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@resource-id=\"todolist.scheduleplanner.dailyplanner.todo.reminders:id/category_text\" and @text=\"All\"]","context":"","multiple":false}
+[38;5;0m[HTTP][0m [37m-->[39m [37mOPTIONS[39m [37m/wd/hub/session/e37ff969-b9e5-4bbc-850f-0966135c2d31/timeouts[39m
 [38;5;0m[HTTP][0m [90m{}[39m
-[38;5;0m[HTTP][0m No route found for /wd/hub/session/a4970458-4b81-43ac-a7ce-56f75ba5218b/timeouts
-[38;5;0m[HTTP][0m [37m<-- OPTIONS /wd/hub/session/a4970458-4b81-43ac-a7ce-56f75ba5218b/timeouts [39m[33m404[39m [90m8 ms - 262[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session/e37ff969-b9e5-4bbc-850f-0966135c2d31/timeouts
+[38;5;0m[HTTP][0m [37m<-- OPTIONS /wd/hub/session/e37ff969-b9e5-4bbc-850f-0966135c2d31/timeouts [39m[33m404[39m [90m8 ms - 262[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":{"ELEMENT":"00000000-0000-0123-ffff-ffff00000134","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0123-ffff-ffff00000134"}}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0123-ffff-ffff00000134","ELEMENT":"00000000-0000-0123-ffff-ffff00000134"}
-[38;5;0m[HTTP][0m [37m<-- POST /session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element [39m[32m200[39m [90m1183 ms - 137[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":{"ELEMENT":"00000000-0000-015f-ffff-ffff00000134","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-015f-ffff-ffff00000134"}}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-015f-ffff-ffff00000134","ELEMENT":"00000000-0000-015f-ffff-ffff00000134"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/953e05c2-f6af-4107-896a-03c85967591c/element [39m[32m200[39m [90m1428 ms - 137[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff00000134/text[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-015f-ffff-ffff00000134/text[39m
 [38;5;0m[HTTP][0m [90m{}[39m
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff00000134/text' to command name 'getText'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [GET /session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff00000134/text] to [GET http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/element/00000000-0000-0123-ffff-ffff00000134/text] with no body
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":"All"}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Replacing sessionId 92b80b3e-692a-474c-8d1d-61922af19f9d with a9846a81-a13c-45f9-86d0-196d6251b5b0
-[38;5;0m[HTTP][0m [37m<-- GET /session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff00000134/text [39m[32m200[39m [90m46 ms - 66[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-015f-ffff-ffff00000134/text' to command name 'getText'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [GET /session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-015f-ffff-ffff00000134/text] to [GET http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element/00000000-0000-015f-ffff-ffff00000134/text] with no body
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":"All"}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Replacing sessionId 0b849a03-f73b-49e8-81f7-b8f57996fd2a with 953e05c2-f6af-4107-896a-03c85967591c
+[38;5;0m[HTTP][0m [37m<-- GET /session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-015f-ffff-ffff00000134/text [39m[32m200[39m [90m60 ms - 66[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element[39m
 [38;5;0m[HTTP][0m [90m{"using":"id","value":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/tasks_img"}[39m
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Calling AppiumDriver.findElement() with args: ["id","todolist.scheduleplanner.dailyplanner.todo.reminders:id/tasks_img","a9846a81-a13c-45f9-86d0-196d6251b5b0"]
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Waiting up to 0 ms for condition
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/element' to command name 'findElement'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [POST /element] to [POST http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/element] with body: {"strategy":"id","selector":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/tasks_img","context":"","multiple":false}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":{"ELEMENT":"00000000-0000-0123-ffff-ffff000000bc","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0123-ffff-ffff000000bc"}}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0123-ffff-ffff000000bc","ELEMENT":"00000000-0000-0123-ffff-ffff000000bc"}
-[38;5;0m[HTTP][0m [37m<-- POST /session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element [39m[32m200[39m [90m39 ms - 137[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.findElement() with args: ["id","todolist.scheduleplanner.dailyplanner.todo.reminders:id/tasks_img","953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element] with body: {"strategy":"id","selector":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/tasks_img","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":{"ELEMENT":"00000000-0000-015f-ffff-ffff000000bc","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-015f-ffff-ffff000000bc"}}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-015f-ffff-ffff000000bc","ELEMENT":"00000000-0000-015f-ffff-ffff000000bc"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/953e05c2-f6af-4107-896a-03c85967591c/element [39m[32m200[39m [90m49 ms - 137[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff000000bc/click[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-015f-ffff-ffff000000bc/click[39m
 [38;5;0m[HTTP][0m [90m{}[39m
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Calling AppiumDriver.click() with args: ["00000000-0000-0123-ffff-ffff000000bc","a9846a81-a13c-45f9-86d0-196d6251b5b0"]
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/element/00000000-0000-0123-ffff-ffff000000bc/click' to command name 'click'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [POST /element/00000000-0000-0123-ffff-ffff000000bc/click] to [POST http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/element/00000000-0000-0123-ffff-ffff000000bc/click] with body: {"element":"00000000-0000-0123-ffff-ffff000000bc"}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":null}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Responding to client with driver.click() result: null
-[38;5;0m[HTTP][0m [37m<-- POST /session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff000000bc/click [39m[32m200[39m [90m63 ms - 14[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.click() with args: ["00000000-0000-015f-ffff-ffff000000bc","953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/element/00000000-0000-015f-ffff-ffff000000bc/click' to command name 'click'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [POST /element/00000000-0000-015f-ffff-ffff000000bc/click] to [POST http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element/00000000-0000-015f-ffff-ffff000000bc/click] with body: {"element":"00000000-0000-015f-ffff-ffff000000bc"}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":null}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.click() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-015f-ffff-ffff000000bc/click [39m[32m200[39m [90m78 ms - 14[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element[39m
 [38;5;0m[HTTP][0m [90m{"using":"id","value":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/iv_task_add"}[39m
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Calling AppiumDriver.findElement() with args: ["id","todolist.scheduleplanner.dailyplanner.todo.reminders:id/iv_task_add","a9846a81-a13c-45f9-86d0-196d6251b5b0"]
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Waiting up to 0 ms for condition
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/element' to command name 'findElement'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [POST /element] to [POST http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/element] with body: {"strategy":"id","selector":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/iv_task_add","context":"","multiple":false}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":{"ELEMENT":"00000000-0000-0123-ffff-ffff00000038","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0123-ffff-ffff00000038"}}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0123-ffff-ffff00000038","ELEMENT":"00000000-0000-0123-ffff-ffff00000038"}
-[38;5;0m[HTTP][0m [37m<-- POST /session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element [39m[32m200[39m [90m39 ms - 137[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.findElement() with args: ["id","todolist.scheduleplanner.dailyplanner.todo.reminders:id/iv_task_add","953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element] with body: {"strategy":"id","selector":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/iv_task_add","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":{"ELEMENT":"00000000-0000-015f-ffff-ffff00000038","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-015f-ffff-ffff00000038"}}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-015f-ffff-ffff00000038","ELEMENT":"00000000-0000-015f-ffff-ffff00000038"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/953e05c2-f6af-4107-896a-03c85967591c/element [39m[32m200[39m [90m52 ms - 137[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff00000038/displayed[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-015f-ffff-ffff00000038/click[39m
 [38;5;0m[HTTP][0m [90m{}[39m
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0123-ffff-ffff00000038","a9846a81-a13c-45f9-86d0-196d6251b5b0"]
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/element/00000000-0000-0123-ffff-ffff00000038/attribute/displayed' to command name 'getAttribute'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [GET /element/00000000-0000-0123-ffff-ffff00000038/attribute/displayed] to [GET http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/element/00000000-0000-0123-ffff-ffff00000038/attribute/displayed] with no body
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":"true"}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Responding to client with driver.elementDisplayed() result: true
-[38;5;0m[HTTP][0m [37m<-- GET /session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff00000038/displayed [39m[32m200[39m [90m36 ms - 14[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.click() with args: ["00000000-0000-015f-ffff-ffff00000038","953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/element/00000000-0000-015f-ffff-ffff00000038/click' to command name 'click'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [POST /element/00000000-0000-015f-ffff-ffff00000038/click] to [POST http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element/00000000-0000-015f-ffff-ffff00000038/click] with body: {"element":"00000000-0000-015f-ffff-ffff00000038"}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":null}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.click() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-015f-ffff-ffff00000038/click [39m[32m200[39m [90m72 ms - 14[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element[39m
-[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//android.widget.TextView[@resource-id=\"todolist.scheduleplanner.dailyplanner.todo.reminders:id/category_text\" and @text=\"All\"]"}[39m
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@resource-id=\"todolist.scheduleplanner.dailyplanner.todo.reminders:id/category_text\" and @text=\"All\"]","a9846a81-a13c-45f9-86d0-196d6251b5b0"]
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Waiting up to 0 ms for condition
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/element' to command name 'findElement'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [POST /element] to [POST http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@resource-id=\"todolist.scheduleplanner.dailyplanner.todo.reminders:id/category_text\" and @text=\"All\"]","context":"","multiple":false}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":{"ELEMENT":"00000000-0000-0123-ffff-ffff00000134","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0123-ffff-ffff00000134"}}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0123-ffff-ffff00000134","ELEMENT":"00000000-0000-0123-ffff-ffff00000134"}
-[38;5;0m[HTTP][0m [37m<-- POST /session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element [39m[32m200[39m [90m97 ms - 137[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_input"}[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.findElement() with args: ["id","todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_input","953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element] with body: {"strategy":"id","selector":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_input","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":{"ELEMENT":"00000000-0000-0160-ffff-ffff00000146","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0160-ffff-ffff00000146"}}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0160-ffff-ffff00000146","ELEMENT":"00000000-0000-0160-ffff-ffff00000146"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/953e05c2-f6af-4107-896a-03c85967591c/element [39m[32m200[39m [90m35 ms - 137[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff00000134/text[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-0160-ffff-ffff00000146/displayed[39m
 [38;5;0m[HTTP][0m [90m{}[39m
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff00000134/text' to command name 'getText'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [GET /session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff00000134/text] to [GET http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/element/00000000-0000-0123-ffff-ffff00000134/text] with no body
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":"All"}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Replacing sessionId 92b80b3e-692a-474c-8d1d-61922af19f9d with a9846a81-a13c-45f9-86d0-196d6251b5b0
-[38;5;0m[HTTP][0m [37m<-- GET /session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff00000134/text [39m[32m200[39m [90m45 ms - 66[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0160-ffff-ffff00000146","953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/element/00000000-0000-0160-ffff-ffff00000146/attribute/displayed' to command name 'getAttribute'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [GET /element/00000000-0000-0160-ffff-ffff00000146/attribute/displayed] to [GET http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element/00000000-0000-0160-ffff-ffff00000146/attribute/displayed] with no body
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":"true"}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.elementDisplayed() result: true
+[38;5;0m[HTTP][0m [37m<-- GET /session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-0160-ffff-ffff00000146/displayed [39m[32m200[39m [90m35 ms - 14[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;0m[HTTP][0m [37m-->[39m [37mOPTIONS[39m [37m/wd/hub/session/a4970458-4b81-43ac-a7ce-56f75ba5218b/timeouts[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_input"}[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.findElement() with args: ["id","todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_input","953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element] with body: {"strategy":"id","selector":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_input","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":{"ELEMENT":"00000000-0000-0160-ffff-ffff00000146","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0160-ffff-ffff00000146"}}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0160-ffff-ffff00000146","ELEMENT":"00000000-0000-0160-ffff-ffff00000146"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/953e05c2-f6af-4107-896a-03c85967591c/element [39m[32m200[39m [90m23 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-0160-ffff-ffff00000146/text[39m
 [38;5;0m[HTTP][0m [90m{}[39m
-[38;5;0m[HTTP][0m No route found for /wd/hub/session/a4970458-4b81-43ac-a7ce-56f75ba5218b/timeouts
-[38;5;0m[HTTP][0m [37m<-- OPTIONS /wd/hub/session/a4970458-4b81-43ac-a7ce-56f75ba5218b/timeouts [39m[33m404[39m [90m7 ms - 262[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-0160-ffff-ffff00000146/text' to command name 'getText'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [GET /session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-0160-ffff-ffff00000146/text] to [GET http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element/00000000-0000-0160-ffff-ffff00000146/text] with no body
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":"Input new task here"}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Replacing sessionId 0b849a03-f73b-49e8-81f7-b8f57996fd2a with 953e05c2-f6af-4107-896a-03c85967591c
+[38;5;0m[HTTP][0m [37m<-- GET /session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-0160-ffff-ffff00000146/text [39m[32m200[39m [90m46 ms - 82[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element[39m
-[38;5;0m[HTTP][0m [90m{"using":"id","value":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/tasks_img"}[39m
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Calling AppiumDriver.findElement() with args: ["id","todolist.scheduleplanner.dailyplanner.todo.reminders:id/tasks_img","a9846a81-a13c-45f9-86d0-196d6251b5b0"]
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Waiting up to 0 ms for condition
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/element' to command name 'findElement'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [POST /element] to [POST http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/element] with body: {"strategy":"id","selector":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/tasks_img","context":"","multiple":false}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":{"ELEMENT":"00000000-0000-0123-ffff-ffff000000bc","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0123-ffff-ffff000000bc"}}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0123-ffff-ffff000000bc","ELEMENT":"00000000-0000-0123-ffff-ffff000000bc"}
-[38;5;0m[HTTP][0m [37m<-- POST /session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element [39m[32m200[39m [90m31 ms - 137[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_input"}[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.findElement() with args: ["id","todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_input","953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element] with body: {"strategy":"id","selector":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_input","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":{"ELEMENT":"00000000-0000-0160-ffff-ffff00000146","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0160-ffff-ffff00000146"}}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0160-ffff-ffff00000146","ELEMENT":"00000000-0000-0160-ffff-ffff00000146"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/953e05c2-f6af-4107-896a-03c85967591c/element [39m[32m200[39m [90m26 ms - 137[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff000000bc/click[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-0160-ffff-ffff00000146/click[39m
 [38;5;0m[HTTP][0m [90m{}[39m
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Calling AppiumDriver.click() with args: ["00000000-0000-0123-ffff-ffff000000bc","a9846a81-a13c-45f9-86d0-196d6251b5b0"]
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/element/00000000-0000-0123-ffff-ffff000000bc/click' to command name 'click'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [POST /element/00000000-0000-0123-ffff-ffff000000bc/click] to [POST http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/element/00000000-0000-0123-ffff-ffff000000bc/click] with body: {"element":"00000000-0000-0123-ffff-ffff000000bc"}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":null}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Responding to client with driver.click() result: null
-[38;5;0m[HTTP][0m [37m<-- POST /session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff000000bc/click [39m[32m200[39m [90m64 ms - 14[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.click() with args: ["00000000-0000-0160-ffff-ffff00000146","953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/element/00000000-0000-0160-ffff-ffff00000146/click' to command name 'click'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [POST /element/00000000-0000-0160-ffff-ffff00000146/click] to [POST http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element/00000000-0000-0160-ffff-ffff00000146/click] with body: {"element":"00000000-0000-0160-ffff-ffff00000146"}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":null}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.click() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-0160-ffff-ffff00000146/click [39m[32m200[39m [90m71 ms - 14[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element[39m
-[38;5;0m[HTTP][0m [90m{"using":"id","value":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_none"}[39m
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Calling AppiumDriver.findElement() with args: ["id","todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_none","a9846a81-a13c-45f9-86d0-196d6251b5b0"]
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Waiting up to 0 ms for condition
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/element' to command name 'findElement'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [POST /element] to [POST http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/element] with body: {"strategy":"id","selector":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_none","context":"","multiple":false}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":{"ELEMENT":"00000000-0000-0123-ffff-ffff00000036","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0123-ffff-ffff00000036"}}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0123-ffff-ffff00000036","ELEMENT":"00000000-0000-0123-ffff-ffff00000036"}
-[38;5;0m[HTTP][0m [37m<-- POST /session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element [39m[32m200[39m [90m36 ms - 137[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_input"}[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.findElement() with args: ["id","todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_input","953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element] with body: {"strategy":"id","selector":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_input","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":{"ELEMENT":"00000000-0000-0160-ffff-ffff00000146","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0160-ffff-ffff00000146"}}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0160-ffff-ffff00000146","ELEMENT":"00000000-0000-0160-ffff-ffff00000146"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/953e05c2-f6af-4107-896a-03c85967591c/element [39m[32m200[39m [90m27 ms - 137[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff00000036/text[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-0160-ffff-ffff00000146/clear[39m
 [38;5;0m[HTTP][0m [90m{}[39m
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff00000036/text' to command name 'getText'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [GET /session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff00000036/text] to [GET http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d/element/00000000-0000-0123-ffff-ffff00000036/text] with no body
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":"Click here to create your first task."}
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Replacing sessionId 92b80b3e-692a-474c-8d1d-61922af19f9d with a9846a81-a13c-45f9-86d0-196d6251b5b0
-[38;5;0m[HTTP][0m [37m<-- GET /session/a9846a81-a13c-45f9-86d0-196d6251b5b0/element/00000000-0000-0123-ffff-ffff00000036/text [39m[32m200[39m [90m35 ms - 100[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.clear() with args: ["00000000-0000-0160-ffff-ffff00000146","953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/element/00000000-0000-0160-ffff-ffff00000146/clear' to command name 'clear'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [POST /element/00000000-0000-0160-ffff-ffff00000146/clear] to [POST http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element/00000000-0000-0160-ffff-ffff00000146/clear] with body: {"elementId":"00000000-0000-0160-ffff-ffff00000146"}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":null}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.clear() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-0160-ffff-ffff00000146/clear [39m[32m200[39m [90m60 ms - 14[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/session/a9846a81-a13c-45f9-86d0-196d6251b5b0[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-0160-ffff-ffff00000146/value[39m
+[38;5;0m[HTTP][0m [90m{"text":"My Task - 511"}[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.setValue() with args: ["My Task - 511","00000000-0000-0160-ffff-ffff00000146","953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/element/00000000-0000-0160-ffff-ffff00000146/value' to command name 'setValue'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Added 'value' property ["M","y"," ","T","a","s","k"," ","-"," ","5","1","1"] to 'setValue' request body
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [POST /element/00000000-0000-0160-ffff-ffff00000146/value] to [POST http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element/00000000-0000-0160-ffff-ffff00000146/value] with body: {"elementId":"00000000-0000-0160-ffff-ffff00000146","text":"My Task - 511","replace":false,"value":["M","y"," ","T","a","s","k"," ","-"," ","5","1","1"]}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":null}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.setValue() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-0160-ffff-ffff00000146/value [39m[32m200[39m [90m949 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_btn"}[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.findElement() with args: ["id","todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_btn","953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [POST /element] to [POST http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element] with body: {"strategy":"id","selector":"todolist.scheduleplanner.dailyplanner.todo.reminders:id/task_create_btn","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":{"ELEMENT":"00000000-0000-0160-ffff-ffff00000152","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0160-ffff-ffff00000152"}}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0160-ffff-ffff00000152","ELEMENT":"00000000-0000-0160-ffff-ffff00000152"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/953e05c2-f6af-4107-896a-03c85967591c/element [39m[32m200[39m [90m25 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-0160-ffff-ffff00000152/click[39m
 [38;5;0m[HTTP][0m [90m{}[39m
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Calling AppiumDriver.deleteSession() with args: ["a9846a81-a13c-45f9-86d0-196d6251b5b0"]
-[38;5;16m[AppiumDriver@899f][0m Event 'quitSessionRequested' logged at 1704431680006 (01:14:40 GMT-0400 (hora de Bolivia))
-[38;5;16m[AppiumDriver@899f][0m Removing session a9846a81-a13c-45f9-86d0-196d6251b5b0 from our master session list
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Deleting UiAutomator2 session
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Deleting UiAutomator2 server session
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Matched '/' to command name 'deleteSession'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Proxying [DELETE /] to [DELETE http://127.0.0.1:8201/session/92b80b3e-692a-474c-8d1d-61922af19f9d] with no body
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Got response with status 200: {"sessionId":"92b80b3e-692a-474c-8d1d-61922af19f9d","value":null}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.click() with args: ["00000000-0000-0160-ffff-ffff00000152","953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/element/00000000-0000-0160-ffff-ffff00000152/click' to command name 'click'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [POST /element/00000000-0000-0160-ffff-ffff00000152/click] to [POST http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a/element/00000000-0000-0160-ffff-ffff00000152/click] with body: {"element":"00000000-0000-0160-ffff-ffff00000152"}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":null}
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Responding to client with driver.click() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/953e05c2-f6af-4107-896a-03c85967591c/element/00000000-0000-0160-ffff-ffff00000152/click [39m[32m200[39m [90m64 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/session/953e05c2-f6af-4107-896a-03c85967591c[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Calling AppiumDriver.deleteSession() with args: ["953e05c2-f6af-4107-896a-03c85967591c"]
+[38;5;16m[AppiumDriver@7d89][0m Event 'quitSessionRequested' logged at 1704435031065 (02:10:31 GMT-0400 (hora de Bolivia))
+[38;5;16m[AppiumDriver@7d89][0m Removing session 953e05c2-f6af-4107-896a-03c85967591c from our master session list
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Deleting UiAutomator2 server session
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Matched '/' to command name 'deleteSession'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Proxying [DELETE /] to [DELETE http://127.0.0.1:8202/session/0b849a03-f73b-49e8-81f7-b8f57996fd2a] with no body
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Got response with status 200: {"sessionId":"0b849a03-f73b-49e8-81f7-b8f57996fd2a","value":null}
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop todolist.scheduleplanner.dailyplanner.todo.reminders'
 [38;5;96m[Logcat][0m Stopping logcat capture
-[38;5;64m[ADB][0m Removing forwarded port socket connection: 8201 
-[38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8201'
-[38;5;32m[AndroidUiautomator2Driver@b7c0 (a9846a81)][0m Restoring hidden api policy to the device default configuration
+[38;5;64m[ADB][0m Removing forwarded port socket connection: 8202 
+[38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8202'
+[38;5;32m[AndroidUiautomator2Driver@cdeb (953e05c2)][0m Restoring hidden api policy to the device default configuration
 [38;5;64m[ADB][0m Running 'C:\Users\cybertron\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
-[38;5;16m[AppiumDriver@899f][0m Event 'quitSessionFinished' logged at 1704431680213 (01:14:40 GMT-0400 (hora de Bolivia))
-[38;5;16m[AppiumDriver@899f][0m Received response: null
-[38;5;16m[AppiumDriver@899f][0m But deleting session, so not returning
-[38;5;16m[AppiumDriver@899f][0m Responding to client with driver.deleteSession() result: null
-[38;5;0m[HTTP][0m [37m<-- DELETE /session/a9846a81-a13c-45f9-86d0-196d6251b5b0 [39m[32m200[39m [90m207 ms - 14[39m
+[38;5;16m[AppiumDriver@7d89][0m Event 'quitSessionFinished' logged at 1704435031287 (02:10:31 GMT-0400 (hora de Bolivia))
+[38;5;16m[AppiumDriver@7d89][0m Received response: null
+[38;5;16m[AppiumDriver@7d89][0m But deleting session, so not returning
+[38;5;16m[AppiumDriver@7d89][0m Responding to client with driver.deleteSession() result: null
+[38;5;0m[HTTP][0m [37m<-- DELETE /session/953e05c2-f6af-4107-896a-03c85967591c [39m[32m200[39m [90m223 ms - 14[39m
 [38;5;0m[HTTP][0m [90m[39m
-[38;5;112m[Instrumentation][0m .
-[38;5;112m[Instrumentation][0m Time: 36.08
-[38;5;112m[Instrumentation][0m 
-[38;5;112m[Instrumentation][0m OK (1 test)
