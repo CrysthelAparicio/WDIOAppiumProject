@@ -65,7 +65,6 @@ Once the repository is cloned, in the command line paste the following command:
    npm run wdio-bs:popups
 ```
 ### Browserstack integracion Live + WebdriverIO
-![Alt text](image-1.png)
 
 ![Alt text](image.png)
 
@@ -82,6 +81,7 @@ Failed Link https://app-automate.browserstack.com/builds/b60e1e5e778e45926063137
 
 
 Failed Link https://app-automate.browserstack.com/builds/aa61fc49802afe377be315d57cc5296ec8c51883/sessions/f63d111fcd23ea3daefb23285a47ecd633191f35?auth_token=e7af1efe0f4096d614d585cf87c025596e98cf89e0a97ab2339d8b11ad1d8fd8
+
 
 ## Software needed
 - [Visual Studio Code](https://code.visualstudio.com/).
