@@ -19,7 +19,6 @@ node.js version 16 or higher is required
                     (https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer/1.2.5)
                     (https://mvnrepository.com/artifact/info.cukes/cucumber-junit/1.2.5)
 
-
 ## Structure
 ```
 └───WDIOAPPIUMPROJECT/
