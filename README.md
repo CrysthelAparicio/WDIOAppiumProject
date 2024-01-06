@@ -65,6 +65,7 @@ Once the repository is cloned, in the command line paste the following command:
    npm run wdio-bs:popups
 ```
 ### Browserstack integracion Live + WebdriverIO
+![Alt text](image-1.png)
 
 ![Alt text](image.png)
 
@@ -74,11 +75,12 @@ Once the repository is cloned, in the command line paste the following command:
 
 ## Description 
 In this link you can see the video of the integration with browserstack :
+Passed  https://app-automate.browserstack.com/builds/aa61fc49802afe377be315d57cc5296ec8c51883/sessions/b5ab43fd1e8cc21cce1f46c9150e455f8ba9cc5f?auth_token=db4893c8632d00e2bd3226bc342e220fda08e3a16da1297cc927546ed6c5b023
 
-https://app-automate.browserstack.com/builds/b60e1e5e778e4592606313743caad700d3ac044c/sessions/c09a34dfe9b8691eaf3d98337db8341e03c0d090?auth_token=8ffe2f6f3ac2598246344a935d28e15f5fde9628ecaa575eec0664e64c93dc09 
+Failed https://app-automate.browserstack.com/builds/b60e1e5e778e4592606313743caad700d3ac044c/sessions/c09a34dfe9b8691eaf3d98337db8341e03c0d090?auth_token=8ffe2f6f3ac2598246344a935d28e15f5fde9628ecaa575eec0664e64c93dc09 
 
 
-https://app-automate.browserstack.com/builds/aa61fc49802afe377be315d57cc5296ec8c51883/sessions/f63d111fcd23ea3daefb23285a47ecd633191f35?auth_token=e7af1efe0f4096d614d585cf87c025596e98cf89e0a97ab2339d8b11ad1d8fd8
+Failed https://app-automate.browserstack.com/builds/aa61fc49802afe377be315d57cc5296ec8c51883/sessions/f63d111fcd23ea3daefb23285a47ecd633191f35?auth_token=e7af1efe0f4096d614d585cf87c025596e98cf89e0a97ab2339d8b11ad1d8fd8
 
 ## Software needed
 - [Visual Studio Code](https://code.visualstudio.com/).
